@@ -1,0 +1,750 @@
+h6 , h2{
+    font-family:'Poppins', sans-serif;
+    color: #1f1f1f;
+}
+
+.navbar-brand img{
+    width: 48%;
+    height: auto;
+
+}
+.nav-button{
+    
+    color: #ffffff !important;
+}
+.nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff !important;
+}
+
+
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 1s;
+}
+
+.nav-link:hover i{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.carousel-item h1{
+    margin:20px 0px 10px;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    z-index: 30;
+    animation-name: hello;
+    animation-duration:1.2s;
+    animation-iteration-count:1;
+}
+.carousel-item h4{
+    margin:10px 0px ;
+    padding-bottom: 7px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    animation-name:hello;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+
+
+}
+.btn-color{
+    background-color: #00c3da;
+}
+.buttons .btn{
+    padding:14px 30px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14;
+   
+}
+.buttons{
+    
+    animation-name: hello;
+    animation-duration: 1.8s;
+    animation-iteration-count:1;
+
+}
+.buttons:hover .btn-one{
+    transform: translateY(-2px);
+
+}
+.btn-two:hover{
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+.shad{
+    color: #ffffff;
+    background-color:rgba(40, 40, 40, 0.5);
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:20;
+}
+.carousel-control-prev{
+    z-index: 25 !important;
+}
+.carousel-control-next{
+    z-index: 25 !important;
+
+}
+.carousel-indicators{
+    z-index: 25 !important;
+
+
+}
+@keyframes hello{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.iam-first{
+    position: relative;
+    overflow: hidden;
+}
+
+.conone{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    margin-top: -50px;
+    z-index:60;
+    
+}
+.contwo{
+    position: absolute;
+    left: 0;
+    top:352px;
+    margin-top: -50px;
+    z-index:60;
+    
+}
+
+
+
+
+
+
+.layer5{
+    position: absolute;
+    opacity: 1;
+    left:-100%;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(255,255, 255,1);
+    z-index:0 ;
+    transition: 0.3s left;
+  
+}
+.layer5 .mm{
+    padding: 15px 15px;
+    z-index: 10;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.controlls .conone:hover .layer5{
+    left: 0;
+
+} 
+.controlls .contwo:hover .layer5{
+    left: 0;
+
+} 
+
+
+.controlls a{
+    display: block;
+    z-index: 99999999;
+}
+
+.and .contr{
+    background-color: transparent;
+    padding: 15px 15px;
+    z-index: 10;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 0;
+    
+}
+
+
+.who-text{
+    margin:20px 0px;
+
+}
+.who-text p{
+    font-weight:300;
+    font-size:24px;
+    color: #787878;
+}
+.who-text .one{
+    margin-bottom: 0 ;
+    padding-bottom: 0 ;
+    
+}
+.who-text span::before{
+    content: "|";
+    top: 0;
+    left:90%;
+    animation-name: it-me;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    font-weight:400;
+    font-size:20px;
+    color: #00c3da;
+}
+@keyframes it-me{
+    0%{content: "| ";}
+    1%{content: " W| ";}
+    3%{content: " We| ";}
+    5%{content: " Web| ";}
+    7%{content: " Webs| ";}
+    9%{content: " Websi| ";}
+    10%{content: " Websit| ";}
+    11%{content: " Website| ";}
+    13%{content: " Websites| ";}
+
+    15%{content: " Website| ";}
+    17%{content: " Websit| ";}
+    19%{content: " Websi| ";}
+    20%{content: " Webs| ";}
+    21%{content: " Web| ";}
+    23%{content: " We| ";}
+    25%{content: " W| ";}
+    29%{content: "| ";}
+
+
+    30%{content: " | ";}
+    31%{content: " s| ";}
+    35%{content: " so| ";}
+    37%{content: " sof| ";}
+    39%{content: " soft| ";}
+    40%{content: " softw| ";}
+    41%{content: " softwa| ";}
+    43%{content: " softwar| ";}
+    45%{content: " software| ";}
+    47%{content: " softwares| ";}
+
+    50%{content: " software| ";}
+    53%{content: " softwar| ";}
+    55%{content: " softwa| ";}
+    57%{content: " softw| ";}
+    60%{content: " soft| ";}
+    63%{content: " sof| ";}
+    65%{content: " so| ";}
+    67%{content: " s| ";}
+    70%{content: " | ";}
+
+    75%{content: "| ";}
+    77%{content: "a| ";}
+    80%{content: "ap| ";}
+    83%{content: " app| ";}
+    85%{content: " apps| ";}
+
+    87%{content: " app| ";}
+    90%{content: " ap| ";}
+    95%{content: " a| ";}
+    100%{content: " | ";}
+   
+}
+
+
+.who-content{
+    padding-top: 25px ;
+}
+.are{
+    font-weight:500;
+    font-size: 13px;
+    color: #1f1f1f;
+    text-transform: uppercase;
+
+}
+.our-bordered{
+    border-radius: 0;
+    border-color: #dedede;
+    background-color: transparent;
+
+}
+.who-content a{
+    transition: 0.5s background-color , 0.5s color;
+}
+.who-content:hover a{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+
+
+.team h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    position: relative;
+}
+
+.team h2::before{
+    content: 'c';
+    opacity: 0.06;
+    position: absolute;
+    top:-50px;
+    right:48%;
+    bottom:0;
+    font-weight: 700;
+    font-size:6rem;
+    text-align: center;
+    
+}
+
+.team h4{
+    font-weight: 400;
+    font-size: 18px;
+    font-family:'Source Sans Pro', sans-serif;
+    color: #787878;
+}
+.team{
+    overflow: hidden;
+}
+.team-members{
+    overflow: hidden;
+    
+}
+.mem-1{
+    animation-name: teme;
+    animation-duration: 0.8s;
+    animation-iteration-count:2;
+    
+
+}
+.mem-2{
+    animation-name: teme;
+    animation-duration:1s;
+    
+    animation-iteration-count:2;
+    opacity: 1;
+
+}
+.mem-3{
+    animation-name: teme;
+    animation-duration: 1.5s;
+   
+    animation-iteration-count:2;
+
+}
+.mem-4{
+    animation-name: teme;
+    animation-duration: 2s;
+    
+    animation-iteration-count:2;
+
+}
+
+@keyframes teme{
+    0%{
+        top:100%;
+        opacity: 0;
+       
+    }
+    100%{
+        top: 0;
+        
+    }
+}
+
+.members{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.memberimg img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+.info{
+    background-color: rgba(0, 195, 218, 0.9);
+    color: #fff ;
+    font-family: 'Source Sans Pro', sans-serif;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:7%;
+    opacity: 0;
+    transition: 0.5s top , 0.5s opacity;
+    
+}
+.info h4{
+    color: #fff !important;
+    font-size: 15px;
+}
+.info p{
+    font-size: 14px;
+}
+.info a{
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 14px !important;
+}
+
+.team-members:hover .info{
+    top: 0;
+    opacity: 1;
+
+}
+.team-members i:hover{
+    color: #fff;
+}
+
+
+.services{
+    background-color: #787878;
+    
+    
+}
+.servicesp{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.text1 h6{
+    font-weight:600 !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    animation-name: texth;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes texth{
+    0%{
+        opacity:0;
+       
+    }
+    100%{
+        opacity:1;
+        
+    }
+}
+.info-text h4{
+    font-weight:800;
+    font-size:32px;
+    
+}
+
+.w h2 {
+    font-weight:800;
+    font-size:32px;
+    position: relative;
+    
+    
+}
+
+.w h2::before{
+    content: 'W';
+    opacity: 0.09;
+    position: absolute;
+    top:-27px;
+   right: 85%;
+    bottom:0;
+   font-weight: 700;
+    font-size:4rem;
+   
+    
+     
+      
+      
+  }
+
+.info-text p{
+    font-weight: 500;
+}
+.list{
+    margin-top: 25px;
+}
+
+.list li{
+    padding: 5px;
+    font-size: 16px;
+    list-style-type:none;
+    color: #fff;
+}
+.layer1{
+   background-color: rgba(0, 0,0, 0.2);
+   width: 100%;
+   
+}
+
+
+
+.works{
+    background-color: #f7f7f7;
+}
+.head2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    position: relative;
+}
+.head2 h2::before{
+    content: 'c';
+    opacity: 0.06;
+    position: absolute;
+    top:-65px;
+    right: 48%;
+    bottom:0;
+    font-weight: 700;
+    font-size:7rem;
+    text-align: center;
+    
+}
+.text2 p{
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.info-card{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06) , 0 2px 5px 0 rgba(0, 0, 0, 0.2); 
+}
+.head3 h4{
+    font-size: 13px;
+    color: #1f1f1f;
+    font-family: 'Poppins', sans-serif;
+}
+.num h2{
+    font-size: 55;
+    font-weight: 500 !important;
+    position: relative;
+
+}
+.num span{
+    font-size: 19px;
+    position: absolute;
+    top: 10;
+    left: 4;
+} 
+.info-card ul{
+    list-style-type:none;
+    color: #787878;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.end{
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+}
+.end a{
+    font-size: 14px;
+    color: #fff;
+    background-color: #00c3da;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.09);
+    
+}
+.end:hover a{
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+}
+
+.carde-first{
+    transform: scale(1.1);
+    position: relative;
+}
+
+.carde-first .first{
+    position: absolute;
+    top: 28px;
+    right: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #00c3da;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.carde-first h2{
+    color: #00c3da;
+}
+
+.customfirst{
+    max-width: 750px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    
+}
+#work
+{
+ background-color: #f7f7f7;   
+ position: relative;  
+    
+}
+
+.customerimg img{
+    
+    position: absolute;
+    top: -45px;
+    right: 55%;
+    padding: 50px 0;
+    width: 120px;
+    border-radius: 50%;
+    margin: -100;
+}
+.card
+{
+    height: 40% !important;
+}
+
+
+ .card h4{
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card .p-one{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #787878;
+    font-weight: 600;
+}
+
+.card .p-two{
+    color: #787878;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+.icon-l , .icon-r{
+    font-size: 3rem;
+    color: #787878;
+}
+.customers i{
+    transition: 0.5s transform;
+    overflow:hidden;
+    
+}
+
+.icon-l:hover {
+    color: #00c3da;
+    transform: translatex(-5px);
+}
+ .icon-r:hover {
+    color: #00c3da;
+    transform: translatex(5px);
+}
+
+.form label{
+    font-size: 13px;
+    font-weight: 600 ;
+    color: #1f1f1f;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.firstbtn{
+    width: 23%;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    background-color: #00c3da;
+    border: #00c3da;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.head3 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    position: relative;
+}
+.head3 h2::before{
+    content: 'G';
+    opacity: 0.06;
+    position: absolute;
+    top:-50px;
+    right:90%;
+    bottom:0;
+    font-weight: 700;
+    font-size:6rem;
+    text-align: center;
+    
+}
+.text3 p{
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+iframe{
+    border: none !important;
+}
+.map{
+    position: relative;
+   
+}
+.tesrt5{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    
+
+}
+
+
+
+
+@media screen and (max-width: 575px) and (min-width: 399px)
+{
+    .card{
+        height: 50% !important;
+    }
+    .info-card
+    {
+        margin-bottom:10%;
+    }
+    .memberimg
+    {
+        margin-bottom:10%;
+    }
+    .conone
+    {
+        margin-top: 43px
+    }
+    .contwo
+    {
+        margin-top: -100px;
+    }
+}
+
